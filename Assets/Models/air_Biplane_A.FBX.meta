@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 30344efc851560c49b4f716a9a0772cb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: air_Biplane_A_Body
+    100004: air_Biplane_A_Cable_Rudder
+    100006: air_Biplane_A_Cable_Tail
+    100008: air_Biplane_A_Cable_Tail_HelperA
+    100010: air_Biplane_A_Cable_Tail_Left_HelperA
+    100012: air_Biplane_A_Cable_Tail_Right_HelperA
+    100014: air_Biplane_A_Cable_Tail_Rudder_HelperA
+    100016: air_Biplane_A_Cable_Tail_Rudder_HelperB
+    100018: air_Biplane_A_Propeller
+    100020: air_Biplane_A_Tail_Left_Flap
+    100022: air_Biplane_A_Tail_Right_Flap
+    100024: air_Biplane_A_Tail_Rudder
+    100026: air_Biplane_A_Wheels
+    100028: air_Biplane_A_Wing_Left_Flap
+    100030: air_Biplane_A_Wing_Right_Flap
+    400000: //RootNode
+    400002: air_Biplane_A_Body
+    400004: air_Biplane_A_Cable_Rudder
+    400006: air_Biplane_A_Cable_Tail
+    400008: air_Biplane_A_Cable_Tail_HelperA
+    400010: air_Biplane_A_Cable_Tail_Left_HelperA
+    400012: air_Biplane_A_Cable_Tail_Right_HelperA
+    400014: air_Biplane_A_Cable_Tail_Rudder_HelperA
+    400016: air_Biplane_A_Cable_Tail_Rudder_HelperB
+    400018: air_Biplane_A_Propeller
+    400020: air_Biplane_A_Tail_Left_Flap
+    400022: air_Biplane_A_Tail_Right_Flap
+    400024: air_Biplane_A_Tail_Rudder
+    400026: air_Biplane_A_Wheels
+    400028: air_Biplane_A_Wing_Left_Flap
+    400030: air_Biplane_A_Wing_Right_Flap
+    2100000: mtrl_air_Biplane_A
+    2300000: air_Biplane_A_Body
+    2300002: air_Biplane_A_Propeller
+    2300004: air_Biplane_A_Tail_Left_Flap
+    2300006: air_Biplane_A_Tail_Right_Flap
+    2300008: air_Biplane_A_Tail_Rudder
+    2300010: air_Biplane_A_Wheels
+    2300012: air_Biplane_A_Wing_Left_Flap
+    2300014: air_Biplane_A_Wing_Right_Flap
+    3300000: air_Biplane_A_Body
+    3300002: air_Biplane_A_Propeller
+    3300004: air_Biplane_A_Tail_Left_Flap
+    3300006: air_Biplane_A_Tail_Right_Flap
+    3300008: air_Biplane_A_Tail_Rudder
+    3300010: air_Biplane_A_Wheels
+    3300012: air_Biplane_A_Wing_Left_Flap
+    3300014: air_Biplane_A_Wing_Right_Flap
+    4300000: air_Biplane_A_Body
+    4300002: air_Biplane_A_Tail_Left_Flap
+    4300004: air_Biplane_A_Tail_Right_Flap
+    4300006: air_Biplane_A_Tail_Rudder
+    4300008: air_Biplane_A_Wing_Left_Flap
+    4300010: air_Biplane_A_Wing_Right_Flap
+    4300012: air_Biplane_A_Propeller
+    4300014: air_Biplane_A_Wheels
+    4300016: air_Biplane_A_Cable_Tail
+    4300018: air_Biplane_A_Cable_Rudder
+    9500000: //RootNode
+    13700000: air_Biplane_A_Cable_Rudder
+    13700002: air_Biplane_A_Cable_Tail
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
