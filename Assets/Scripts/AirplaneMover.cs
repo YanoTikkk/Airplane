@@ -2,12 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AirplaneMover : MonoBehaviour
 {
     private Rigidbody airPlaneRb;
     private float h;
     private float v;
+    public int health = 3;
+    [SerializeField] private Text lost;
     [SerializeField] private GameObject camera;
     [SerializeField] private float speed;
     [SerializeField] private float speedRotate;
@@ -29,11 +32,22 @@ public class AirplaneMover : MonoBehaviour
 
     private void Mover()
     {
-       h = Input.GetAxis("Horizontal");
-       v = Input.GetAxis("Vertical");
-       
-       airPlaneRb.AddRelativeForce(v * speed,0,0,ForceMode.Impulse);
-       airPlaneRb.AddRelativeTorque(0,0,-h * speedRotate,ForceMode.Force);
+       h = Input.GetAxis("Horizontal") * speedRotate;
+       v = Input.GetAxis("Vertical") * speed;
 
+       airPlaneRb.AddRelativeForce(v, 0f, 0f,ForceMode.VelocityChange);
+       airPlaneRb.AddRelativeTorque(0f,0f,-h);
+
+    }
+
+    public void Healt()
+    {
+        health--;
+        
+        if (health == 0)
+        {
+            Destroy(gameObject);
+            lost.text = "Вы проиграли(. Жизни закончились";
+        }
     }
 }
