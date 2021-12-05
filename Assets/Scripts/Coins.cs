@@ -12,8 +12,7 @@ public class Coins : MonoBehaviour
     
     private void OnCollisionEnter(Collision collision)
     {
-        CoinCountres coinCountres = new CoinCountres();
-        coinCountres.CoinCounter();
+        FindObjectOfType<CoinCountres>().CoinCounter();
         Destroy(gameObject);
     }
 }

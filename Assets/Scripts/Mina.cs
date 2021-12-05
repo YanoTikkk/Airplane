@@ -6,8 +6,7 @@ public class Mina : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        AirplaneMover healt = new AirplaneMover();
-        healt.Healt();
+        FindObjectOfType<AirplaneMover>().Healt();
         collision.rigidbody.AddForce(transform.up,ForceMode.Acceleration);
         Destroy(gameObject);
     }

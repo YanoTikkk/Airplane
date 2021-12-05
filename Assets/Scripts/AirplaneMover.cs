@@ -11,7 +11,7 @@ public class AirplaneMover : MonoBehaviour
     private float v;
     public int health = 3;
     [SerializeField] private Text lost;
-    [SerializeField] private GameObject camera;
+    [SerializeField] private Transform camera;
     [SerializeField] private float speed;
     [SerializeField] private float speedRotate;
 
@@ -46,8 +46,10 @@ public class AirplaneMover : MonoBehaviour
         
         if (health == 0)
         {
+            Text text = FindObjectOfType<Text>();
+            text.color = Color.red;
+            text.text = "Жизни закончились , вы проиграли!";
             Destroy(gameObject);
-            lost.text = "Вы проиграли(. Жизни закончились";
         }
     }
 }

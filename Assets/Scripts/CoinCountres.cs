@@ -6,16 +6,17 @@ using UnityEngine.UI;
 
 public class CoinCountres : MonoBehaviour
 {
-    [SerializeField] private Text win;
     private int coins;
     
     public void CoinCounter()
     {
         coins++;
         
-        if (coins >= 2)
+        if (coins >= 5)
         {
-            win.text = "ВЫ СОБРАЛИ ВСЕ МОНЕТЫ!";
+            Text text = FindObjectOfType<Text>();
+            text.color = Color.green;
+            text.text = "Вы выйграли!";
         }
     }
 }
