@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -65,6 +68,7 @@
       <workItem from="1638621923229" duration="9620000" />
       <workItem from="1638701721240" duration="1875000" />
       <workItem from="1638704403725" duration="220000" />
+      <workItem from="1638796373185" duration="216000" />
     </task>
     <servers />
   </component>

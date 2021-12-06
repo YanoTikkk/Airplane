@@ -10,7 +10,6 @@ public class AirplaneMover : MonoBehaviour
     private float h;
     private float v;
     public int health = 3;
-    [SerializeField] private Text lost;
     [SerializeField] private Transform camera;
     [SerializeField] private float speed;
     [SerializeField] private float speedRotate;

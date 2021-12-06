@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637743879290000000
+      ticks: 637743888150000000
     m_Hash: 4112753489
   m_LockFileStatus:
     m_FilePath: /Users/dimayankovich/Desktop/Unity Project/Airplane/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637743879290000000
+      ticks: 637743888150000000
     m_Hash: 1443680946
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

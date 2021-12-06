@@ -10,7 +10,7 @@ public class Coins : MonoBehaviour
         transform.Rotate(0,30 * Time.deltaTime,0);
     }
     
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         FindObjectOfType<CoinCountres>().CoinCounter();
         Destroy(gameObject);
